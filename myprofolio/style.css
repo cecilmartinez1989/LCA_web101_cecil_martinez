@@ -3,7 +3,7 @@ body {
     background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 120vh;
+    height: 100vh;
     width: 100vw;
   }
   
@@ -89,4 +89,48 @@ body {
     color: blueviolet;
     letter-spacing: 16px;
     font-style: italic;
+  }
+  /* Extra Small and up (Portrait Phones) */
+
+/* Small and up (Landscape Phones) */
+  @media (min-width: 576px) {
+    p{
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
+
+  }
+  
+  /* Medium and up (Tablets) */
+  @media (min-width: 768px) {
+    p{
+      font-size:2.5rem;
+      line-height: 2.5;
+    }
+  
+  }
+  
+  /* Large and up (Desktops) */
+  @media (min-width: 992px) {
+  p{
+    font-size:3.5rem;
+    line-height: 3.5;
+  }
+  }
+  
+  /* Extra Large and up (Wide Screen Desktops) */
+  @media (min-width: 1200px) {
+    p{
+      font-size:4.5rem;
+      line-height: 4.5;
+    }
+  
+  }
+  @media screen and (max-width: 900px) and (min-width: 600px) {
+    div.example {
+      font-size: 50px;
+      padding: 50px;
+      border: 8px solid black;
+      background: yellow;
+    }
   }
