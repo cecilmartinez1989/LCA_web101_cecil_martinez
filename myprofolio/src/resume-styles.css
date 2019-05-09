@@ -1,0 +1,27 @@
+h3{
+    font-size: 2cm
+}
+
+h1 {
+    
+    color:black;
+    margin: 3% auto;
+    
+
+  }
+  main {
+    margin: 5% auto;
+    
+
+    width: 60%;
+    
+  
+  }
+  article{
+    margin: 1% auto;
+   
+
+  }
+  article>h2{
+    font-size: 1cm;
+  }
