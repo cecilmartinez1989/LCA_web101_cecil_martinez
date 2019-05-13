@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dashboard-style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div id="head"> <header><h1>HI! I'm Cecil Martinez!</h1>
+    <p>Student of Lubbock Coding Academy</p>
+    <p>Welcome to My WebPage!</p>
+    </header></div>
+<main><h2>To Do List</h2>
+<article><p>1.I have to do my laudry</p>
+         <p>2.Feed the dog </p>
+         <p>3.Go to the store </p>  
+</article>
+</main> 
+<aside>
+        <div id='calc-contain'>
+  
+                <form name="calculator">
+                  
+                  <input type="text" name="answer" />
+                  <br>
+                  
+                  <input type="button" value=" 1 " onclick="calculator.answer.value += '1'" />
+                  <input type="button" value=" 2 " onclick="calculator.answer.value += '2'" />
+                  <input type="button" value=" 3 " onclick="calculator.answer.value += '3'" />
+                  <input type="button" value=" + " onclick="calculator.answer.value += '+'" />
+                  <br/>
+                  
+                  <input type="button" value=" 4 " onclick="calculator.answer.value += '4'" />
+                  <input type="button" value=" 5 " onclick="calculator.answer.value += '5'" />
+                  <input type="button" value=" 6 " onclick="calculator.answer.value += '6'" />
+                  <input type="button" value=" - " onclick="calculator.answer.value += '-'" />
+                  </br>
+                
+                  <input type="button" value=" 7 " onclick="calculator.answer.value += '7'" />
+                  <input type="button" value=" 8 " onclick="calculator.answer.value += '8'" />
+                  <input type="button" value=" 9 " onclick="calculator.answer.value += '9'" />
+                  <input type="button" value=" x " onclick="calculator.answer.value += '*'" />
+                  </br>
+              
+                  <input type="button" value=" c " onclick="calculator.answer.value = ''" />
+                  <input type="button" value=" 0 " onclick="calculator.answer.value += '0'" />
+                  <input type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)" />
+                  <input type="button" value=" / " onclick="calculator.answer.value += '/'" />
+                  </br>
+        
+          
+                </form>
+                <div id="agh">
+        
+                
+            </div>
+</aside>
+<footer>
+        <div id="clockbox"></div>
+
+        <script type="text/javascript">
+        var tmonth=["January","February","March","April","May","June","July","August","September","October","November","December"];
+        
+        function GetClock(){
+        var d=new Date();
+        var nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+        
+        var nhour=d.getHours(),nmin=d.getMinutes(),ap;
+        if(nhour==0){ap=" AM";nhour=12;}
+        else if(nhour<12){ap=" AM";}
+        else if(nhour==12){ap=" PM";}
+        else if(nhour>12){ap=" PM";nhour-=12;}
+        
+        if(nmin<=9) nmin="0"+nmin;
+        
+        var clocktext=""+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+ap+"";
+        document.getElementById('clockbox').innerHTML=clocktext;
+        }
+        
+        GetClock();
+        setInterval(GetClock,1000);
+        </script>
+        
+</footer>
+ 
+</body>
+
+</html>
