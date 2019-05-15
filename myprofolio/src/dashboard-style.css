@@ -3,22 +3,24 @@
     grid-area: header;
     text-align: center;
     
+    
 }
 #main{
-    background: white;
+  background:white;
     grid-area: main;
     text-align: center;
 
 }
 #aside{
-    background: white;
+    background:white;
     grid-area: aside;
     text-align: center;
+    
     }
 #footer{
-        background: white;
+    background:white;
         grid-area: footer;
-        font-size: 2fr;
+        font-size: 1fr;
         text-align: center;
         
         
@@ -27,13 +29,13 @@
 
 body {
     
-    background:black;
+    background:url(tornnado.jpg);
     
-    height: 100vh;
-    width: 100vw;
+    /*height: 100vh;
+    width: 100vw;*/
     display: grid;
 
-        grid-template-columns: 2fr 2fr 2fr 2fr;
+        grid-template-columns: 1fr .95fr .95fr 1fr;
          grid-template-rows: 135px 200px 100px;
 
          grid-template-areas:
@@ -43,16 +45,24 @@ body {
   }
   header{
       background: white;
-      font: black;
+      
   }
   
 
   
   
   h1{ 
+      
       font-size: 2px black;
   }
   h2{
+    
       font-size: 2px black;
   }
-  
+  #RBCal{
+      color:whitesmoke;
+      margin-left: auto;
+      margin-right:auto;
+      display: flex;
+      justify-content: flex-end;
+  }
