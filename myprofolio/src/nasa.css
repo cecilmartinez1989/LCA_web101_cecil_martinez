@@ -10,23 +10,24 @@ height: 450px;
 margin: 0 auto;
 
 }
-h4{
-    font-size: 55px;
-    color: white;
-    padding: 200px 0;
-    text-align:center;
-}
-#social{
+
+
+main{
     background-color: rgb(224,222,222);
-    margin: 20 auto;
+    margin: 50 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-
-
-
 }
+
+    h4{
+        font-size: 55px;
+        color: white;
+        padding: 200px 0;
+        text-align:center;
+
+    }
+
 article{
     text-align: center;
     height: 324px;
