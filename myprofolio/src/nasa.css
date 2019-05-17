@@ -12,9 +12,9 @@ margin: 0 auto;
 }
 
 
-main{
+#info{ 
     background-color: rgb(224,222,222);
-    margin: 50 auto;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -40,4 +40,7 @@ p{
     font-size: 15px;
     margin: 0 auto;
     font-family: 'Slabo 27px', serif;
+}
+#message{
+    height: 100px;
 }
