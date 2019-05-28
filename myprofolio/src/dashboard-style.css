@@ -1,27 +1,33 @@
 
 #head{
+    margin: 10px;
     grid-area: header;
     text-align: center;
     
     
 }
 #main{
+    margin: 10px;
   background:white;
     grid-area: main;
     text-align: center;
 
 }
 #aside{
+    margin: 10px;
     background:white;
     grid-area: aside;
     text-align: center;
     
     }
 #footer{
+    margin: 10px;
     background:white;
         grid-area: footer;
         font-size: 1fr;
         text-align: center;
+        
+   
         
         
     }
@@ -65,4 +71,158 @@ body {
       margin-right:auto;
       display: flex;
       justify-content: flex-end;
+  }
+@media (max-width: 768px){
+
+    #head{
+        margin: 10px;
+        grid-area: header;
+        text-align: center;
+        
+        
+    }
+    #main{
+        margin: 10px;
+      background:white;
+        grid-area: main;
+        text-align: center;
+    
+    }
+    #aside{
+        margin: 10px;
+        background:white;
+        grid-area: aside;
+        text-align: center;
+        
+        }
+    #footer{
+        margin: 10px;
+        background:white;
+            grid-area: footer;
+            font-size: 1fr;
+            text-align: center;
+            
+       
+            
+            
+        }
+        
+    
+    body {
+        
+        background:url(tornnado.jpg);
+        
+        /*height: 100vh;
+        width: 100vw;*/
+        display: grid;
+    
+            grid-template-columns: 1fr .95fr .95fr 1fr;
+             grid-template-rows: 135px 200px 100px;
+    
+             grid-template-areas:
+             "header header header header"
+             "main main aside aside"
+            "footer footer footer footer";
+      }
+      header{
+          background: white;
+          
+      }
+      
+    
+      
+      
+      h1{ 
+          
+          font-size: 2px black;
+      }
+      h2{
+        
+          font-size: 2px black;
+      }
+      #RBCal{
+          color:whitesmoke;
+          margin-left: auto;
+          margin-right:auto;
+          display: flex;
+          justify-content: flex-end;
+      }
+
+}
+  @media (max-width: 576px){
+
+    #head{
+        margin: 10px;
+        grid-area: header;
+        text-align: center;
+        
+        
+    }
+    #main{
+        margin: 10px;
+      background:white;
+        grid-area: main;
+        text-align: center;
+    
+    }
+    #aside{
+        margin: 10px;
+        background:white;
+        grid-area: aside;
+        text-align: center;
+        
+        }
+    #footer{
+        margin: 10px;
+        background:white;
+            grid-area: footer;
+            font-size: 1fr;
+            text-align: center;
+            
+       
+            
+            
+        }
+        
+    
+    body {
+        
+        background:url(tornnado.jpg);
+        
+        /*height: 100vh;
+        width: 100vw;*/
+        display: grid;
+    
+            grid-template-columns: 1fr .95fr .95fr 1fr;
+             grid-template-rows: 135px 200px 100px;
+    
+             grid-template-areas:
+             "header header header header"
+             "main main aside aside"
+            "footer footer footer footer";
+      }
+      header{
+          background: white;
+          
+      }
+      
+    
+      
+      
+      h1{ 
+          
+          font-size: 2px black;
+      }
+      h2{
+        
+          font-size: 2px black;
+      }
+      #RBCal{
+          color:whitesmoke;
+          margin-left: auto;
+          margin-right:auto;
+          display: flex;
+          justify-content: flex-end;
+      }
+
   }
