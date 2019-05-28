@@ -1,0 +1,46 @@
+body{
+    margin: 0 auto;
+    width: 850px;
+}
+
+header{
+    background: url(quasar20171206-16.jpg);
+height: 450px;
+
+margin: 0 auto;
+
+}
+
+
+#info{ 
+    background-color: rgb(224,222,222);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    h4{
+        font-size: 55px;
+        color: white;
+        padding: 200px 0;
+        text-align:center;
+
+    }
+
+article{
+    text-align: center;
+    height: 324px;
+    width: 270px;
+    background-color: rgb(224,222,222);
+    font-family: 'Baloo Bhai', cursive;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    margin: 0 auto;
+    font-family: 'Slabo 27px', serif;
+}
+#message{
+    height: 100px;
+}
