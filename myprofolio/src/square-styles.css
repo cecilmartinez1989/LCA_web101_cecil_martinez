@@ -1,0 +1,180 @@
+
+body{
+    text-align: center;
+}
+.boxes{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Square1{
+    width: 50px;
+    height: 50px;
+    margin:10px auto;
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    transition: 10s;
+
+}
+.Square3{
+    width: 50px;
+    height: 50px;
+    margin:10px auto;
+    background-color: purple;
+    color: black;
+    cursor: pointer;
+    transition: 10s;
+
+}
+.Square5{
+    width: 50px;
+    height: 50px;
+    margin:10px auto;
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+    transition: 10s;
+
+}
+.Square7{
+    width: 50px;
+    height: 50px;
+    margin:10px auto;
+    background-color:black;
+    color:white;
+    cursor: pointer;
+    transition: 10s;
+
+}
+.Square9{
+    width: 50px;
+    height: 50px;
+    margin:10px auto;
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    transition: 10s;
+
+}
+.Square11{
+    width: 50px;
+    height: 50px;
+    margin:10px auto;
+    background-color: pink;
+    color: black;
+    cursor: pointer;
+    transition: 10s;
+
+}
+.Square1:hover{
+    transform: translate(600px,0px) rotate(360deg) scale(2,2);
+
+}
+.Square3:hover{
+    transform: translate(600px,0px) rotate(360deg) scale(2,2);
+
+}
+.Square5:hover{
+    transform: translate(600px,0px) rotate(360deg) scale(2,2);
+
+}
+.Square7:hover{
+    transform: translate(600px,0px) rotate(360deg) scale(2,2);
+
+}
+.Square9:hover{
+    transform: translate(600px,0px) rotate(360deg) scale(2,2);
+
+}
+.Square11:hover{
+    transform: translate(600px,0px) rotate(360deg) scale(2,2);
+
+}
+.Square2{
+    width: 50px;
+    height: 50px;
+    margin:10px auto;
+    background-color: blue;
+    color: black;
+    cursor: pointer;
+    transition: 2s;
+
+}
+.Square4{
+    width: 50px;
+    height: 50px;
+    margin:10px auto;
+    background-color:yellow;
+    color: black;
+    cursor: pointer;
+    transition: 2s;
+
+}
+.Square6{
+    width: 50px;
+    height: 50px;
+    margin:10px auto;
+    background-color: green;
+    color: black;
+    cursor: pointer;
+    transition: 2s;
+
+}
+.Square8{
+    width: 50px;
+    height: 50px;
+    margin:10px auto;
+    background-color: brown;
+    color: black;
+    cursor: pointer;
+    transition: 2s;
+
+}
+.Square10{
+    width: 50px;
+    height: 50px;
+    margin:10px auto;
+    background-color:maroon;
+    color: black;
+    cursor: pointer;
+    transition: 2s;
+
+}
+.Square12{
+    width: 50px;
+    height: 50px;
+    margin:10px auto;
+    background-color:white;
+    border: 3px;
+    
+    color: black;
+    cursor: pointer;
+    transition: 2s;
+
+}
+.Square2:hover{
+    transform: translate(-600px,0px) rotate(-360deg) scale(.5,.5);
+
+}
+.Square4:hover{
+    transform: translate(-600px,0px) rotate(-360deg) scale(.5,.5);
+
+}
+.Square6:hover{
+    transform: translate(-600px,0px) rotate(-360deg) scale(.5,.5);
+
+}
+.Square8:hover{
+    transform: translate(-600px,0px) rotate(-360deg) scale(.5,.5);
+
+}
+.Square10:hover{
+    transform: translate(-600px,0px) rotate(-360deg) scale(.5,.5);
+
+}
+.Square12:hover{
+    transform: translate(-600px,0px) rotate(-360deg) scale(.5,.5);
+
+}
