@@ -72,6 +72,14 @@ body {
       display: flex;
       justify-content: flex-end;
   }
+  
+
+
+#my-coordinates{
+margin: 10px;
+background: white;
+
+}
 @media (max-width: 768px){
 
     #head{
