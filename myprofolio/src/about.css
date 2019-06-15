@@ -5,6 +5,45 @@ body{
 
 header{
     text-align: center;
-    color:black
+    color:black;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+
+
+}
+main{
+
+    font-family: 'Indie Flower', cursive;
+    display:flex;
+    justify-content: space-evenly;
+    
+
+}
+
+h2{
+    font-family: 'Indie Flower', cursive;
+    
+    border-radius: 25px;
+  background:white;
+ 
+  width: 500px;
+  height: 50px; 
+  text-align: center;
+
+}
+p{
+    border-radius: 25px;
+  background:white;
+  padding: 20px; 
+  width: 500px;
+  height: 350px; 
+}
+
+#doggo{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transform: rotate(150deg);
+    
 }
 
