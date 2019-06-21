@@ -1,0 +1,125 @@
+body{
+    background-color: aqua;
+    color: white;
+   
+}
+header{
+    
+    text-align: center;
+    font-size: 65px;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#red{
+    margin:25;
+    background-color:blue;
+    height: 30px;
+    width:550px;
+    border: blue;
+  
+    
+}
+
+main{
+    text-align: center;
+    background-color: black;
+    font-size: 35px;
+    color: white;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+   font-family: 'Orbitron', sans-serif;
+    
+}
+
+@media (min-width: 576px) { 
+
+    body{
+        background-color: aqua;
+        color: white;
+       
+    }
+    header{
+        
+        text-align: center;
+        font-size: 65px;
+        color: white;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    #red{
+        margin:25;
+        background-color:blue;
+        height: 30px;
+        width:550px;
+        border: blue;
+      
+        
+    }
+    
+    main{
+        text-align: center;
+        background-color: black;
+        font-size: 35px;
+        color: white;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+       font-family: 'Orbitron', sans-serif;
+        
+    }
+
+
+ }
+
+ @media (min-width: 992px) { 
+
+
+    body{
+        background-color: aqua;
+        color: white;
+       
+    }
+    header{
+        
+        text-align: center;
+        font-size: 65px;
+        color: white;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    #red{
+        margin:25;
+        background-color:blue;
+        height: 30px;
+        width:550px;
+        border: blue;
+      
+        
+    }
+    
+    main{
+        text-align: center;
+        background-color: black;
+        font-size: 35px;
+        color: white;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+       font-family: 'Orbitron', sans-serif;
+        
+    }
+   }
