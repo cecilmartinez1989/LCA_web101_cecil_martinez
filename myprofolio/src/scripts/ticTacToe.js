@@ -1,5 +1,6 @@
 
 
+
 function computerTurn() {
     var choose = $(".tile:not(.marked)");
     randChoice = choose[Math.floor(Math.random() * choose.length)];
@@ -50,4 +51,5 @@ $(document).ready(function() {
         }
     });
 });
+
 
